@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "OpenFront Build Assistant",
+  "version": "3.1",
+  "description": "Hardware-level event emulator and rapid auto-builder for the OpenFront engine.",
+  "host_permissions": [
+    "*://openfront.io/*",
+    "*://*.openfront.io/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["*://openfront.io/*", "*://*.openfront.io/*"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://openfront.io/*", "*://*.openfront.io/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
