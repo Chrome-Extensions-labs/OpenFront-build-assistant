@@ -1,6 +1,7 @@
 # OpenFront Build Assistant
 
-https://github.com/user-attachments/assets/746e8787-90a7-425d-94d8-f715e772ada9
+[![Chrome Store](https://img.shields.io/badge/platform-Chrome_Extension-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://chromewebstore.google.com/search/OstinUA)
+[![Chrome Portfolio](https://img.shields.io/badge/Chrome_Web_Store-Portfolio-34A853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://devs-in-exile.pages.dev/extensions)
 
 A highly optimized, hardware-level event emulator designed as a Google Chrome Extension. It automates high-frequency repetitive tasks (such as building upgrades) in canvas-based web games, specifically targeting the OpenFront engine architecture.
 
